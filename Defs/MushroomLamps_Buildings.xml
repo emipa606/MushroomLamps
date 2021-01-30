@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ======================== Lighting ======================= -->
+  <ThingDef Abstract="True" Name="ML_LampBase" ParentName="BuildingBase">
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>8</pathCost>
+    <tickerType>Normal</tickerType>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Furniture</designationCategory>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0.665</fuelConsumptionRate>
+        <fuelCapacity>5</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RawFungus</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>170</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ML_LampBase">
+    <defName>ML_GlowstoolLamp</defName>
+    <label>glowstool lamp</label>
+    <description>Lamp that lights an area in blue using fungus natural glow.</description>
+    <graphicData>
+      <texPath>ML_GlowstoolLamp</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(62,167,253,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ML_LampBase">
+    <defName>ML_AgariluxLamp</defName>
+    <label>agarilux lamp</label>
+    <description>Lamp that lights an area in pink using fungus natural glow.</description>
+    <graphicData>
+      <texPath>ML_AgariluxLamp</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(255,128,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Setup vanilla research !-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName = "Devilstrand"]/label</xpath>
+    <value>
+      <label>Mushrooms</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName = "Devilstrand"]/description</xpath>
+    <value>
+      <description>Allows colonists to plant devilstrand, glowstool, agarilux and bryolux. Mushrooms are hard to growing but yields a valuable plant fiber.</description>
+    </value>
+  </Operation>
+  <!-- Setup growable mushrooms !-->
+  <!-- Glowstool !-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Glowstool"]/plant</xpath>
+    <value>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Glowstool"]/plant</xpath>
+    <value>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Glowstool"]/plant</xpath>
+    <value>
+      <sowMinSkill>7</sowMinSkill>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "Glowstool"]/plant/growDays</xpath>
+    <value>
+      <growDays>20</growDays>
+    </value>
+  </Operation>
+  <!-- Agarilux !-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Agarilux"]/plant</xpath>
+    <value>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Agarilux"]/plant</xpath>
+    <value>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = "Agarilux"]/plant</xpath>
+    <value>
+      <sowMinSkill>7</sowMinSkill>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName = "Agarilux"]/plant/growDays</xpath>
+    <value>
+      <growDays>30</growDays>
+    </value>
+  </Operation>
+</Patch>
