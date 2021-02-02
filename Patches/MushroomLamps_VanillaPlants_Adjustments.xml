@@ -10,7 +10,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName = "Devilstrand"]/description</xpath>
     <value>
-      <description>Allows colonists to plant devilstrand, glowstool, agarilux and bryolux. Mushrooms are hard to growing but yields a valuable plant fiber.</description>
+      <description>Allows colonists to plant devilstrand, glowstool, agarilux and bryolux. Mushrooms are hard to grow but yields a valuable plant fiber.</description>
     </value>
   </Operation>
   <!-- Setup growable mushrooms !-->

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ML_GlowstoolLamp.label>лампа-шаяльник</ML_GlowstoolLamp.label>
+  <ML_GlowstoolLamp.description>Лампа, освещающая ближайшую область голубым цветом благодаря биолюминесценции.</ML_GlowstoolLamp.description>
+  <ML_AgariluxLamp.label>лампа-пластосвет</ML_AgariluxLamp.label>
+  <ML_AgariluxLamp.description>Лампа, освещающая ближайшую область розовым цветом благодаря биолюминесценции.</ML_AgariluxLamp.description>
+</LanguageData>
