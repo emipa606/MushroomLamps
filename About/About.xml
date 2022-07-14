@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Mushroom Lamps (Continued)</name>
   <packageId>Mlie.MushroomLamps</packageId>
@@ -11,32 +11,36 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Tremeloes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1271886722
 
 - Added russian translation, via Reiquard
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/MushroomLamps][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Add 2 new refuable lamps that uses fungo of mushrooms: glowstool and agarilux.
 Also, the vanilla Glowstool and Agarilux now are growable.
 
 [h1]Mushroom Lamps[/h1]
 Glowstool and Agarilux lamps are the same except for the colors (blue and pink).
-The range of light it&apos;s a little less than the vanilla range.
+The range of light it's a little less than the vanilla range.
 5 fungus maintain a lamp working for 7,5 days.
 
 [h1]Growable Mushrooms[/h1]
-&quot;Devilstrand&quot; project research are changed to &quot;mushrooms&quot;
+"Devilstrand" project research are changed to "mushrooms"
 [i]Mushrooms Research[/i] unlocks devilstrand, glowstool and agarilux.
 The grow time of glowstool/agarilux are changed to half.
 
@@ -46,7 +50,7 @@ Easily compatible with existent saves and mods.
 [h1]Links[/h1]
  • [url=https://ludeon.com/forums/index.php?topic=38984.0]Forum[/url]
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
