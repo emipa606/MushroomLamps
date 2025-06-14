@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: agarilux lamp -->
+  <ML_AgariluxLamp.label>agarilux lamp</ML_AgariluxLamp.label>
+  <!-- EN: Lamp that lights an area in pink using fungus natural glow. -->
+  <ML_AgariluxLamp.description>Lamp that lights an area in pink using fungus natural glow.</ML_AgariluxLamp.description>
+  <!-- EN: glowstool lamp -->
+  <ML_GlowstoolLamp.label>glowstool lamp</ML_GlowstoolLamp.label>
+  <!-- EN: Lamp that lights an area in blue using fungus natural glow. -->
+  <ML_GlowstoolLamp.description>Lamp that lights an area in blue using fungus natural glow.</ML_GlowstoolLamp.description>
+</LanguageData>
